@@ -1,0 +1,31 @@
+{
+    "name": "News_Bot",
+    "description": "Simple & Effective Telegram bot for news in Telethon.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "newsbot"
+    ],
+    "repository": "https://github.com/ShikariBaaZ/News_Bot",
+    "success_url": "https://t.me/ShikariSupportNetwork",
+    "env": {
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        } ]
+}
